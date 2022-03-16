@@ -1,0 +1,25 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	font-family: "Courier New", monospace;
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+#body {
+	border: 2px solid;
+	margin: 3% 20%;
+}
+
+
+#title {
+	background-color: #000000;
+	color: white;
+	border: 1px solid;
+	margin: 20px 20px 0px 20px;	
+}
+
+#info {
+	background-color: #72a8ee;
+}
