@@ -12,29 +12,40 @@
 	</div>
 	</header>
   <body>
-		<div id="body">
+		
 		<!--<img src="/pictures/picture1.gif">
 		-->
 		<div id="info">
+			
 		<h3>This progam will calculate the value of the hypotenuse</h3>
 		<h3>Using the Pythagoras Theorem </h3>
 		<h3>a&#178+b&#178=c&#178</h3>
-		</div>
+	
 
+		<form id="calc-form">
 		<label>Enter a value for A</label>
 		<input type="text" id="aInput">
+			
 	</br></br>
 
 		<label>Enter a value for B</label>
 		<input type="text" id="bInput">
+		</br>
+			<label class="error-message"></label>
 	</br>
 
-		<button type="button">Calculate</button>
+			 <input type="submit" value="Calculate"/>
+
+			</form>
+
+	<!--	<button type="button">Calculate</button> -->
 	</br>
 
-		<h4 id="cOutput">Value of C =  </h4>
+		<h4>Value of C = </h4>
+		<h4 id="cOutput"></h4>
 		
 		</div>
+	
     <script src="script.js"></script>
   </body>
 </html>
